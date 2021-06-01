@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./adaptive.css">
+  </head>
+  <body>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/jquery.svg3dtagcloud.min.js"></script>
+    <script type="text/javascript" src="./sphere.js"></script>
+
+    <div class="container">
+      <section id="main">
+        <div class="titleContainer">
+          <h1 class="title">Hi, I'm Mikhail Beskhitrov</h1>
+          <h2 class="subtitle">I'm a software engineer from Moscow</h1>
+        </div>
+
+        <div class="content" id="mainContent">
+
+          <a href="#projects">
+              <div class="cardContainer">
+                <div class="card" id="p">
+                    <h1>my <br/>projects</h1>
+                </div>
+              </div>
+          </a>
+
+          <a href="#way">
+            <div class="cardContainer">
+              <div class="card" id="w">
+                <h1>my <br/> way</h1>
+              </div>
+            </div>
+          </a>
+
+          <a href="#skills">
+            <div class="cardContainer">
+              <div class="card" id="s">
+                  <h1>my <br/> skills</h1>
+              </div>
+            </div>
+          </a>
+
+          <a href="#contact">
+            <div class="cardContainer">
+              <div class="card" id="c">
+                <h1>contact <br/> me</h1>
+              </div>
+            </div>
+          </a>
+
+        </div>
+
+        <div class="navigation">
+          <h2><a href=""></a></h2>
+          <h2><a href="#projects" id="pa">my projects</a></h2>
+        </div>
+
+      </section>
+
+      <section id="projects">
+        <div class="titleContainer">
+          <h1 class="title">My projects</h1>
+        </div>
+
+        <div class="content">
+            <h1><a href="#way">My projects</a></h1>
+        </div>
+
+        <div class="navigation">
+          <h2><a href="#main" id="ma">main</a></h2>
+          <h2><a href="#way" id="wa">my way</a></h2>
+        </div>
+
+      </section>
+
+      <section id="way">
+        <div class="titleContainer">
+          <h1 class="title">My way</h1>
+        </div>
+
+        <div class="content">
+          <h1><a href="#skills">My way</a></h1>
+        </div>
+
+        <div class="navigation">
+          <h2><a href="#projects" id="pa">my projects</a></h2>
+          <h2><a href="#skills" id="sa">my skills</a></h2>
+        </div>
+      </section>
+
+      <section id="skills">
+        <div class="titleContainer">
+          <h1 class="title">My skills</h1>
+        </div>
+
+        <div class="content" id="skillsContent">
+          <div id="holder"></div>
+          <div id="skills-description">
+            <h1>Basicly, I'm an android developer, but I also have some experience in other spheres like backend, frontend and ML. I'm found of best practicies and clean architecture, so my code is clean and readable. Also I always try to follow SOLID, DRY and other such patterns.</h1>
+          </div>
+        </div>
+
+        <div class="navigation">
+          <h2><a href="#way" id="wa">my way</a></h2>
+          <h2><a href="#contact" id="ca">contact me</a></h2>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="titleContainer">
+          <h1 class="title">Contact me</h1>
+        </div>
+        <div class="content">
+          <h1 id="mail" class="title">kon3gor@gmail.com</h1>
+          <div class="social-networks-container">
+            <a href="https://github.com/kon3gor"><img src="./github.png" alt="github"/></a>
+            <a href="https://www.linkedin.com/in/%D0%BC%D0%B8%D1%85%D0%B0%D0%B8%D0%BB-%D0%B1%D0%B5%D1%81%D1%85%D0%B8%D1%82%D1%80%D0%BE%D0%B2-b973a9208/"><img id="linkedin" src="./linkedin.png" alt="linkedin"/></a>
+            <a href="https://t.me/eshendo"><img id="telegram" src="./telegram.png" alt="telegram"/></a>
+          </div>
+        </div>
+        <div class="navigation">
+          <h2><a href="#skills" id="sa">my skills</a></h2>
+          <h2><a href="#main" id="ma">main</a></h2>
+        </div>
+      </section>
+
+    </div>
+
+    <script type="text/javascript" src="./main.js"></script>
+  </body>
+</html>

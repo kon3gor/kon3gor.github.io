@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+body{
+  margin: 0px;
+  padding: 0;
+  display: flex;
+  width: 100vw;
+  height: 110vh;
+  overflow-y: hidden;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  scroll-snap-type: x mandatory;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-direction: horizontal;
+
+  scroll-behavior: smooth;
+}
+
+section {
+  flex: none;
+  display: flex;
+  align-items:stretch;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+.title{
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: 6rem;
+  margin: 0;
+}
+
+.subtitle{
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+  margin: 0;
+}
+
+.titleContainer{
+  width: 100%;
+  height: 20vh;
+  padding-left: 5rem;
+  padding-top: 5rem;
+  margin: 0;
+}
+
+.content{
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.social-networks-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.social-networks-container img{
+  padding: 2rem;
+}
+
+
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  height: 30vh;
+  width: 100%;
+  align-items:flex-end;
+}
+
+.navigation h2{
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+  color: white;
+}
+
+.card{
+  transform-style: preserve-3d;
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  justify-content: flex-start;
+  transition: transform .2s;
+  cursor: pointer;
+}
+
+.cardContainer{
+  padding: 4rem;
+}
+
+
+.card h1{
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  color: black;
+  text-decoration-color: black;
+  margin: 1rem;
+  -webkit-box-decoration-break: clone;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: .5s ease;
+}
+
+.navigation a:hover{
+  color: black;
+}
+
+#skillsContent{
+  flex-direction: row-reverse;
+}
+
+#skills-description{
+  padding: 5rem;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  color: white;
+  -webkit-box-decoration-break: clone;
+}
+
+#mainContent{
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#mail{
+  font-size: 5rem;
+  transition: .5s ease;
+  cursor: pointer;
+}
+
+#mail:hover{
+  color: black;
+}
+
+#linkedin:hover{
+  content: url("./linkedin-filled.png");
+}
+
+
+#telegram:hover{
+  content: url("./telegram-filled.png");
+}
+
+
+#main{
+  background-color: #1B0D2B;
+}
+
+#ma:hover{
+  color: #41384c;
+}
+
+#pa:hover{
+  color: rgb(240,109,111);
+}
+
+#wa:hover{
+  color: rgba(164,201,160,1);
+}
+
+#sa:hover{
+  color: rgba(115,185,198,1);
+}
+
+#ca:hover{
+  color: rgba(115,134,200,1);
+}
+
+#projects, #p{
+  background: rgb(240,109,111);
+  background: linear-gradient(25deg, rgba(27,13,43,1) 0%, rgba(240,109,111,1) 100%);
+}
+
+#way, #w{
+  background: rgba(164,201,160,1);
+  background: linear-gradient(25deg, rgba(27,13,43,1) 0%, rgba(164,201,160,1) 100%);
+}
+
+#skills, #s{
+  background: rgba(115,185,198,1);
+  background: linear-gradient(25deg, rgba(27,13,43,1) 0%, rgba(115,185,198,1) 100%);
+}
+
+#contact, #c{
+  background: rgba(115,134,200,1);
+  background: linear-gradient(25deg, rgba(27,13,43,1) 0%, rgba(115,134,200,1) 100%);
+}

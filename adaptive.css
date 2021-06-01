@@ -1,0 +1,58 @@
+html{
+  font-size: 5px;
+}
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: calc(5px + 9 * ((100vw - 320px) / 680));
+  }
+
+  #mainContent{
+    flex-direction: column;
+  }
+
+  .card{
+    width: 23rem;
+    height: 23rem;
+  }
+
+  .content{
+    margin-top: 4rem;
+    height: 100%;
+  }
+
+  .container{
+    overflow-y:scroll;
+  }
+
+  section{
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+}
+
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 14px;
+  }
+
+  #mainContent{
+    flex-direction: row;
+  }
+
+  .content{
+    height: 70vh;
+  }
+
+  .container{
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+  }
+
+  section{
+    overflow: hidden;
+  }
+
+}
