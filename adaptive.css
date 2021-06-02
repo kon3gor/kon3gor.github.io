@@ -39,13 +39,6 @@ html{
     height: 17rem;
   }
 
-}
-
-@media screen and (min-width: 1500px) {
-  html {
-    font-size: 14px;
-  }
-
   #mainContent{
     flex-direction: row;
   }
@@ -62,6 +55,15 @@ html{
 
   section{
     overflow: hidden;
+  }
+
+
+
+}
+
+@media screen and (min-width: 1500px) {
+  html {
+    font-size: 14px;
   }
 
   .card{
