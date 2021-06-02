@@ -32,6 +32,15 @@ html{
 
 }
 
+@media screen and (min-width: 500px){
+  
+  .card{
+    width: 17rem;
+    height: 17rem;
+  }
+
+}
+
 @media screen and (min-width: 1000px) {
   html {
     font-size: 14px;
@@ -53,6 +62,11 @@ html{
 
   section{
     overflow: hidden;
+  }
+
+  .card{
+    width: 20rem;
+    height:20rem;
   }
 
 }
