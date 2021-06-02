@@ -33,6 +33,12 @@ html{
 }
 
 @media screen and (min-width: 500px){
+
+
+  html {
+    font-size: calc(5px + 9 * ((100vw - 320px) / 1180));
+  }
+
   
   .card{
     width: 17rem;
